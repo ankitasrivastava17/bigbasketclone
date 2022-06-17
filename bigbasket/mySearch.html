@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link href="https://www.bbassets.com/static/v2531/uiv2/images/favicon.ico" rel="icon" type="image/ico" sizes="16x16"/>
+    <link rel="stylesheet" href="styles/index.css".css">
+</head>
+<style>
+    #navbar{
+    display: flex;
+}
+#div1{
+    width: 60%;
+    /* border: 1px solid red; */
+}
+#div2{
+    width: 40%;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+#count{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+#items{
+    margin-top: -500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+}
+</style>
+<body>
+    <div id="mynavbar"></div>
+   <div id="items"></div> 
+   <div id="myfooter"></div>
+</body>
+</html>
+<script src="./scripts/sMySearch.js" type="module"></script>
